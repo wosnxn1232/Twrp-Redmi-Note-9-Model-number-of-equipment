@@ -1,0 +1,5 @@
+/system      ext4     system                          flags=display=system;logical
+/vendor      ext4     vendor                          flags=display=vendor;logical
+/product     ext4     product                         flags=display=product;logical
+/data        f2fs     /dev/block/by-name/userdata     flags=display=data
+/misc        emmc     /dev/block/by-name/misc         flags=display=misc
